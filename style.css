@@ -162,6 +162,51 @@ ul {
     font-size: 16px;
     color: rgb(6, 4, 4);
   }
+@media only screen and (max-width:980px){
+  body{
+    text-align: center;
+    background-image: linear-gradient(45deg,
+    rgba(240, 122, 120, 0.523),
+    rgba(134, 187, 241, 0.521)), url(mob.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size:cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  }
+  #head{
+    margin-top: 20px;
+    width: 80%;
+  }
+  #nba{
+    position: absolute;
+ 
+    margin-left: 20px;
+    margin-top: -105px;
+    
+  }
+  #Naac{
+    position: absolute;
+    width: 9%;
+    height: 70px;
+    margin-left: 890px;
+    margin-top: -105px;
+
+  }
+  #icon{
+    display: block;
+    position: absolute;
+    font-size: 55px;
+    margin-top: -470px;
+    margin-left: 10px;
+  }
+  #menubar{
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
    
 
 
