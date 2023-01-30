@@ -1,0 +1,94 @@
+#imag1{
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Naac{
+  display: block;
+  margin-left: 75%;
+  margin-right: 25%;
+  margin-top: -4.4%;
+  width: 70px;
+  margin-bottom: 6%;
+}
+#nba{
+  display: block;
+  margin-right: 82%;
+  margin-left: 18%;
+  margin-top: -11%;
+  width: 70px;
+  margin-bottom: 2%;
+}
+#copy
+{
+  position:relative;
+  bottom: 0%;
+  margin-left: 5%;
+  font-size: 16px;
+  color: rgb(6, 4, 4);
+}
+marquee{
+    color: rgb(230, 230, 230);
+    font-family:sans-serif;
+    background-color: hwb(193 73% 2%);
+    border-style:groove;
+    border-radius: 30px;
+    background-image: linear-gradient(90deg, #ba2eed 0%, #2255ee 49%, #b01818 80%, #ca0592 100%); 
+   animation:slidebg 5s linear infinite;
+}
+ body{
+  background-image:url(BG-KSR.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed; 
+  margin: 0%;
+}
+ul {
+  width: 100%;
+    list-style-type: none;
+    padding: 4px;
+    overflow: hidden;
+    background-color: rgba(58, 58, 55, 0.599);
+    margin: 0%;
+  }
+  li {
+    float:right;
+  }
+  
+  li a {
+    color: rgb(242, 241, 241);
+   font-size:20px;
+    padding: 10px 21px;
+    text-decoration: none;
+    text-align: right;
+    cursor:cell;
+    outline: none;
+    margin: 0%;
+  }
+  li a:hover{
+    outline: none;
+    background-color: rgb(255, 168, 8);
+    color: rgb(255, 255, 255);
+  }
+p{
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+  text-align:justify;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.247), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ #vice{
+    text-align: center;
+    background-color: aliceblue;
+ }
+ #member2{
+  text-align: center;
+  background-color: aliceblue;
+ }
+ #member3{
+  text-align: center;
+  background-color: aliceblue;
+ }

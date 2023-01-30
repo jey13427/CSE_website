@@ -1,0 +1,203 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+    text-align: center;
+    background-image: linear-gradient(45deg,
+    rgba(240, 122, 120, 0.523),
+    rgba(134, 187, 241, 0.521)), url(a-block.jpg.JPG);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+#scroll{
+  margin: 0%;
+  color: rgb(230, 230, 230);
+  font-family:sans-serif;
+  background-color: hwb(193 73% 2%);
+  border-style:double;
+  border-radius: 38px;
+  background-image: linear-gradient(90deg, #d70153 0%, #450998 49%, #0087b8 80%, #b53efa 100%); 
+ animation:slidebg 5s linear infinite;}
+ #marq2{
+        background-color: #0087b800;
+        animation: slidebg 2s linear infinite;
+ }
+ul {
+  width: 100%;
+    list-style-type: none;
+    padding: 4px;
+    overflow: hidden;
+    background-color: rgba(58, 58, 55, 0.395);
+  }
+  #drop_down{
+    position: relative;
+    display: inline-block;
+  }
+  #content{
+    display: none;
+    position:absolute;
+    background-color: aliceblue;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgb(158, 150, 150);
+  }
+  #content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  #content a:hover{
+    background-color: aliceblue;
+  }
+  #drop_down:hover #content{
+    display: block;
+  }
+
+  #founder{
+    margin-top: 10px;
+    width: 21%;
+    height: 19%;
+    text-align: center;
+    color: rgb(254, 164, 68);
+    border: 1px solid rgba(19, 5, 5, 0.551);
+    padding: 20px;
+    margin-left: 1%;
+    margin-right: 80%;
+    margin-bottom: 70%;
+    text-align:justify;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.681), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #srinivasan{    
+    width: 21%;
+    height: 19%;
+    text-align: center;
+    color: rgb(254, 164, 68);
+    border: 1px solid rgba(19, 5, 5, 0.551);
+    padding: 20px;
+    margin-left: 76%;
+    margin-top: -89.5%;
+    text-align:justify;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.681), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+  li {
+    float:right;
+  }
+  
+  li a {
+    color: rgb(242, 241, 241);
+   font-size:20px;
+    padding: 10px 21px;
+    text-decoration: none;
+    text-align: right;
+    cursor:cell;
+    outline: none;
+  }
+  .active{
+  background-color: rgb(28, 201, 37);
+  }
+  li a:hover{
+    outline: none;
+    background-color: rgb(255, 168, 8);
+    color: rgb(255, 255, 255);
+  }
+  p{
+    font-style: italic;
+    color: rgb(221, 29, 29);
+  }
+  #Naac{
+    display: block;
+    margin-left: 75%;
+    margin-right: 25%;
+    margin-top: -5%;
+    width: 70px;
+    margin-bottom: 6%;
+  }
+  #nba{
+    display: block;
+    margin-right: 82%;
+    margin-left: 18%;
+    margin-top: -10%;
+    width: 70px;
+    margin-bottom: 2%;}
+  #back_img{
+    display: block;
+    margin-right: 89%;
+    margin-left: 18%;
+    margin-top: 41%;
+    width: 70px;
+    margin-bottom: 2%;
+  }
+  li:focus{
+    outline: none;
+
+  }
+  h4{
+    color: lavenderblush;
+  }
+
+  #text-box{
+    width: 90%;
+    color: rgb(243, 237, 237);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: rgba(14, 18, 18, 0.21);
+  }
+  p{
+    color: rgb(252, 252, 250);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #copy
+  {
+    position: absolute;
+    bottom: 0%;
+    margin-left: 40%;
+    font-size: 16px;
+    color: rgb(6, 4, 4);
+  }
+   
+
+
+  /* #certi{
+    width: 50%;
+    display: flex;
+    animation: slide 5s infinite;
+} */
+
+
+/*Animation activated by keyframes*/
+/* @keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+} */
+
+  
