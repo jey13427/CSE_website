@@ -2,6 +2,7 @@
   margin: 0%;
   padding: 0%;
 }
+
 body{
     text-align: center;
     background-image: linear-gradient(45deg,
@@ -14,6 +15,7 @@ body{
   background-attachment: fixed;
   overflow: hidden;
 }
+
 #scroll{
   margin: 0%;
   color: rgb(230, 230, 230);
@@ -27,7 +29,8 @@ body{
         background-color: #0087b800;
         animation: slidebg 2s linear infinite;
  }
-ul {
+ 
+#menubar {
   width: 100%;
     list-style-type: none;
     padding: 4px;
@@ -59,30 +62,27 @@ ul {
   }
 
   #founder{
-    margin-top: 10px;
+    margin-top:0.6250em;
     width: 21%;
     height: 19%;
-    text-align: center;
     color: rgb(254, 164, 68);
     border: 1px solid rgba(19, 5, 5, 0.551);
     padding: 20px;
-    margin-left: 1%;
-    margin-right: 80%;
     margin-bottom: 70%;
-    text-align:justify;
+    /* text-align:justify; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.681), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   #srinivasan{    
     width: 21%;
     height: 19%;
-    text-align: center;
     color: rgb(254, 164, 68);
     border: 1px solid rgba(19, 5, 5, 0.551);
     padding: 20px;
     margin-left: 76%;
     margin-top: -89.5%;
-    text-align:justify;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.681), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+    /* text-align:justify; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.681), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 
   li {
     float:right;
@@ -141,14 +141,14 @@ ul {
   }
 
   #text-box{
-    width: 90%;
+    width: 45%;
     color: rgb(243, 237, 237);
-    position: absolute;
-    top: 70%;
-    left: 50%;
+    position: absolute ;
+    top: 30% ;
+    left: 50% ;
     transform: translate(-50%,-50%);
     text-align: center;
-    background-color: rgba(14, 18, 18, 0.21);
+    background-color: rgba(14, 18, 18, 0.254) ;
   }
   p{
     color: rgb(252, 252, 250);
@@ -162,6 +162,51 @@ ul {
     font-size: 16px;
     color: rgb(6, 4, 4);
   }
+   
+
+
+  /* #certi{
+    width: 50%;
+    display: flex;
+    animation: slide 5s infinite;
+} */
+
+
+/*Animation activated by keyframes*/
+/* @keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+} */
+/* @media screen and (min-width: 480px) {
+  body {
+    background-color: rgb(210, 246, 210);
+  }
+} */
+#icon{
+  display: none;
+}
 @media only screen and (max-width:980px){
   body{
     text-align: center;
@@ -206,43 +251,23 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
   }
+  #founder{
+    width: 60%;
+    margin-left: 17%;
+  }
+  #srinivasan{
+    margin-top: -60%;
+    width: 60%;
+    margin-left: 17%;
+  }
+  #text-box{
+    width: 80%;
+    margin-top: 77%;
+  }
+  #marq2{
+    width: 120%;
+    margin-top: 17%;
+
+  }
 }
-   
-
-
-  /* #certi{
-    width: 50%;
-    display: flex;
-    animation: slide 5s infinite;
-} */
-
-
-/*Animation activated by keyframes*/
-/* @keyframes slide{
-    0%{
-        transform: translateX(0);
-    }
-    25%{
-        transform: translateX(0);
-    }
-    30%{
-        transform: translateX(-100%);
-    }
-    50%{
-        transform: translateX(-100%);
-    }
-    55%{
-        transform: translateX(-200%);
-    }
-    75%{
-        transform: translateX(-200%);
-    }
-    80%{
-        transform: translateX(-300%);
-    }
-    100%{
-        transform: translateX(-300%);
-    }
-} */
-
   
