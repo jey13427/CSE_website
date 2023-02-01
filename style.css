@@ -210,7 +210,7 @@ body{
 @media only screen and (max-width:980px){
   body{
     text-align: center;
-    background-image: linear-gradient(45deg,
+    /* background-image: linear-gradient(45deg,
     rgba(240, 122, 120, 0.523),
     rgba(134, 187, 241, 0.521)), url(mob.jpg);
   background-repeat: no-repeat;
@@ -218,7 +218,8 @@ body{
   height: 100%;
   background-size:cover;
   background-attachment: fixed;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden; */
   }
   #head{
     margin-top: 20px;
@@ -254,11 +255,14 @@ body{
   #founder{
     width: 60%;
     margin-left: 17%;
+    font-size:x-large;
   }
   #srinivasan{
     margin-top: -60%;
     width: 60%;
     margin-left: 17%;
+    font-size:x-large;
+
   }
   #text-box{
     width: 80%;
@@ -266,7 +270,7 @@ body{
   }
   #marq2{
     width: 100%;
-    margin-top: 17%;
+    margin-top: 24%;
 
   }
 }
